@@ -14,11 +14,13 @@
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @grant        GM_download
-// @grant        GM_xmlhttpRequest                                              // change here needed by gmFetch for in-memory bytes
+// change here needed by gmFetch for in-memory bytes
+// @grant        GM_xmlhttpRequest                                              
 // @grant        GM_registerMenuCommand
 // @connect      cdninstagram.com
 // @connect      fbcdn.net
-// @require      https://cdn.jsdelivr.net/npm/fflate@0.8.2/umd/index.js        // change here: ZIP builder (fork addition)
+// change here: ZIP builder (fork addition)
+// @require      https://cdn.jsdelivr.net/npm/fflate@0.8.2/umd/index.js        
 // @downloadURL https://raw.githubusercontent.com/KrsFts/hoard-zip-fork/main/hoard.user.js
 // @updateURL   https://raw.githubusercontent.com/KrsFts/hoard-zip-fork/main/hoard.meta.js
 // ==/UserScript==
